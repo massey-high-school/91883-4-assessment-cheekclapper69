@@ -23,4 +23,4 @@ def statement_gen(statement, char):
     print(char*len(statement))
     print
 
-statement_gen("***** This is a statement ******", "*")
+statement_gen("Hello World", "&")

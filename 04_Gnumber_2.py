@@ -1,6 +1,3 @@
-#02_pa component
-
-
 import random
 
 low = 1
@@ -11,4 +8,12 @@ numberQ02 = random.randint(low, high)
 
 
 question = " what is {} less than {} ".format(numberQ, numberQ02)
-print(question)
+# print(question)
+
+if numberQ <= numberQ02:
+        print(" {} - {} =".format(numberQ02, numberQ))
+
+else:
+        print(" {} - {} =".format(numberQ, numberQ02))
+
+
